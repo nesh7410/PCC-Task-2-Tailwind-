@@ -11,40 +11,38 @@
 <body>
 
     <div class="wrapper w-full">
-        <div class="Navbar flex justify-between m-8 mx-24 max-sm:text-sm">
-            <div>
+        <div class="Navbar flex shrink-0 justify-between m-8 mx-24 max-[600px]:m-2 max-[600px]:mt-12 max-[600px]:w-auto">
+            <div class="max-[600px]:size-24">
                 <img class="" src="images/logo.svg" alt="cmp img">
             </div>
-            <div class="flex gap-11 text-purple-700">
+            <div class="flex shrink-0 gap-11 max-[600px]:gap-5 text-purple-700">
                 <a href="#1">Features</a>
                 <a href="#2">Team</a>
                 <a href="#3">Sign In</a>
             </div>
         </div>
     
-        <div class="Hero1 flex max-w-screen-xl mx-auto">
-            <div class="flex flex-col w-2/4 py-16 ">
+        <div class="Hero1 flex max-[600px]:flex-col-reverse  max-w-screen-xl mx-auto">
+            <div class="flex flex-col w-2/4 py-16 max-[600px]:size-auto max-[600px]:p-8">
                 <h2 class="font-extrabold text-3xl">All your files in one secure location, accessible anywhere.</h2>
                 <h3 class="py-4">Fylo stores your most important files in one secure location. 
                     Access them wherever you need, share and collaborate with friends, 
                     family, and co-workers.</h3>
-                <div class="flex ">
-                    <input type="text" placeholder="Enter your name.." class="border-black">
+                <div class="flex max-[600px]:flex-col max-[600px]:gap-5">
+                    <input type="text" placeholder="Enter your name.." class="border border-black">
                     <button class="bg-blue-600 text-white py-1 px-12 rounded-sm ">Get Started</button>
                 </div>
             </div>
                            
-            <div class="flex w-2/4 pl-28 py-4 ">
-                <img src="images/illustration-1.svg" class="h-[20rem]">
-            </div>
+            <img src="images/illustration-1.svg" class="h-[20rem] max-[600px]:size-auto max-[600px]:p-16 object-contain">
         </div>
         
         <div class="w-full mt-20">
             <img class="scale-125" src="images/bg-curve-desktop.svg" alt="">
         </div>
         
-        <div class="Hero2 flex w-full mx-auto bg-purple-50">
-            <div class="flex flex-col w-2/4 p-20">
+        <div class="Hero2 flex max-[600px]:flex-col-reverse w-full mx-auto bg-purple-50">
+            <div class="flex flex-col w-2/4 p-20 max-[600px]:size-auto max-[600px]:p-8">
 
                 <h2 class="font-extrabold text-3xl">Stay productive, wherever you are</h2>
 
@@ -59,7 +57,7 @@
                 </div>
                 
 
-                <div class="w-96 shadow-md bg-white my-8 p-6 flex flex-col">
+                <div class="w-96 shadow-md bg-white my-8 p-6 flex flex-col max-[600px]:w-auto">
                     <img src="images/icon-quotes.svg" class="size-2.5">
                     <div>
                         Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.
@@ -76,33 +74,35 @@
 
             </div>
 
-            <div class="flex w-2/4 pl-28 pt-24">
-                <img src="images/illustration-2.svg" class="h-[20rem]">
-            </div>
+            <img src="images/illustration-2.svg" class="h-[20rem] max-[600px]:size-auto object-contain max-[600px]:p-16">
 
         </div>
 
-        <div class="Newsletter bg-indigo-300 flex px-10 w-full">
-            <div class="flex flex-col w-2/4 py-16 ">
+        <div class="Newsletter bg-indigo-300 flex px-10 w-full max-[600px]:flex-col">
+            <div class="flex flex-col w-2/4 py-16 max-[600px]:w-auto">
                 <h2 class="font-extrabold text-3xl">Get early access today</h2>
                 <h4 class="py-4">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</h4>
             </div>
 
-            <div class="flex flex-col mt-20 gap-2 ml-48 w-1/2">
-                <div class="w-3/4"><input class="w-full" type="text" placeholder="email@example.com"></div>
-                <div><button class="bg-blue-600 text-white py-1 px-3 rounded-sm w-2/6"> Get Started For Free</button></div>
+            <div class="flex flex-col mt-20 gap-2 ml-48 w-1/2 max-[600px]:flex-col max-[600px]:gap-5 max-[600px]:mt-5 max-[600px]:ml-10">
+                <div class="w-3/4 max-[600px]:w-full">
+                    <input class="w-full max-[600px]:w-full max-[600px]:mt-6" type="text" placeholder="email@example.com">
+                </div>
+                <div class="max-[600px]:w-full">
+                    <button class="bg-blue-600 text-white py-1 px-3 rounded-sm w-2/6 max-[600px]:w-full "> Get Started For Free</button>
+                </div>
                 
             </div>
         </div>
 
-        <div class="Footer grid grid-cols-4 p-16 bg-indigo-950 text-white">
+        <div class="Footer grid grid-cols-4 p-16 bg-indigo-950 text-white max-[600px]:grid-cols-1 max-[600px]:gap-10">
             <div class="flex flex-col gap-4">
                 <img class="h-10 w-32" src="images/logo.svg">
-                <span>
+                <span class="flex gap-4">
                     <img src="images/icon-phone.svg" alt="">
                     <p> Phone: +1-543-123-4567</p>
                 </span>
-                <span>
+                <span class="flex gap-4">
                     <img src="images/icon-email.svg" alt="">
                     <p>example@fylo.com</p>
                 </span>
